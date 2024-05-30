@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/header/Header.tsx';
 import CardGrid from './components/card-grid/CardGrid.tsx';
+import Contato from './components/pages/contato.tsx';
+import ImageGrid from './components/image-grid/ImageGrid.tsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +17,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/animes" element={<Animes />} />
-            <Route path="/sobre" element={<Sobre />} />
             <Route path="/contato" element={<Contato />} />
           </Routes>
         </div>
@@ -28,10 +27,9 @@ function App() {
 const Home = () => <div>
   Bem-vindo à minha vitrine de melhores animes!
   <CardGrid></CardGrid>
+  {/* <ImageGrid items={items} /> */}
 </div>;
 const Animes = () => <div>Lista de animes</div>;
-const Sobre = () => <div>Sobre nós</div>;
-const Contato = () => <div>Contato</div>;
 
 export default App;
 

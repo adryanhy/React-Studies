@@ -1,0 +1,44 @@
+
+.contato-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.contato-info {
+    max-width: 50%;
+}
+
+.contato-info h1 {
+    margin-bottom: 20px;
+}
+
+.contato-info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contato-links {
+    margin-top: 20px;
+}
+
+.contato-links a {
+    margin-right: 20px;
+    color: #0077b5; /* Cor do LinkedIn */
+    text-decoration: none;
+}
+
+.contato-links a:nth-child(2) {
+    color: #333; /* Cor do GitHub */
+}
+
+.contato-foto {
+    max-width: 40%;
+}
+
+.contato-foto img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
