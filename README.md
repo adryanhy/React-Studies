@@ -8,14 +8,11 @@ Bem-vindo ao meu repositório de estudos em React! Aqui você encontrará vário
 
 - [Sobre](#sobre)
 - [Instalação](#instalação)
-- [Uso](#uso)
 - [Projetos](#projetos)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
 
 ## Sobre
 
-Este repositório contém uma coleção de projetos e componentes em React que desenvolvi para aprender e dominar essa poderosa biblioteca JavaScript. Cada projeto está documentado e vem com instruções de instalação e uso.
+Este repositório contém uma coleção de projetos e componentes em React que desenvolvi para aprender e dominar essa poderosa biblioteca JavaScript.
 
 ## Instalação
 
