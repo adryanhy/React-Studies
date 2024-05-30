@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 
 # Homepage
-![Homepage](./src/assets/homepage.png)
+![Homepage](vite-project/src/assets/homepage.png)
