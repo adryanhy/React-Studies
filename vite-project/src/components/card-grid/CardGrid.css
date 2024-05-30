@@ -1,0 +1,26 @@
+/* src/components/CardGrid.css */
+
+.card-grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    width: 23%; /* Aproximadamente 1/4 da largura da linha, com margem entre os cards */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
