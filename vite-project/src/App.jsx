@@ -2,11 +2,10 @@ import { useState } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/header/Header.tsx';
-import CardGrid from './components/card-grid/CardGrid.tsx';
-import Contato from './components/pages/contato.tsx';
-import ImageGrid from './components/image-grid/ImageGrid.tsx';
-import CardAnime from './components/card-anime/CardAnime.tsx';
-import Anime from './components/pages/animes.tsx';
+import Footer from './components/footer/Footer.jsx';
+import CardGrid from './components/card-grid/CardGrid.jsx';
+import Boss from './components/pages/bosses.jsx';
+import Botao from './components/botao/Botao.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,19 +17,24 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/animes" element={<Anime />} />
-            <Route path="/contato" element={<Contato />} />
+            <Route path="/bosses" element={<Boss />} />
+            {/* <Route path="/contato" element={<Contato />} /> */}
           </Routes>
         </div>
       </Router>
+      <Footer>
+      <div>
+          <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        </div>
+      </Footer>
     </>
   )
 }
 const Home = () => <div>
-  Bem-vindo à minha vitrine de melhores animes!
+  Melhores bosses da serie souls (na nossa opinião)
   <CardGrid></CardGrid>
+  <Botao></Botao>
 </div>;
-// const Animes = () => <div>Lista de animes</div>;
 
 export default App;
 

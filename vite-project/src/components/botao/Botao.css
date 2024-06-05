@@ -1,0 +1,21 @@
+.boss-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.boss-button:hover {
+    background-color: #45a049;
+}
+
+.boss-button:active {
+    background-color: #3e8e41;
+}
