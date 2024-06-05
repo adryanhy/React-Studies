@@ -19,6 +19,6 @@ Este repositório contém uma coleção de projetos e componentes em React que d
 Para clonar este repositório e instalar as dependências necessárias, siga os passos abaixo:
 
 ```bash
-git clone https://github.com/seu-usuario/react-estudos.git
+git clone https://github.com/adryanhy/React-Studies
 cd react-estudos
 npm install
