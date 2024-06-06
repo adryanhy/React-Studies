@@ -2,11 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './CardAnime.css';
 
-const CardAnime = ({ imageSrc, text }) => {
+const CardAnime = ({ imageSrc, link }) => {
   return (
-    <div className="image-with-text-container">
-      <img src={imageSrc} alt={text} className="image" />
-      <p className="text">{text}</p>
+    <div className="card-anime">
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <img src={imageSrc} alt="Anime" />
+      </a>
     </div>
   );
 };

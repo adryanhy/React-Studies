@@ -1,0 +1,18 @@
+.Anime {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20vh;
+    min-width: 1300px;
+    padding: 5vh;
+}
+
+.texto-historia {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}

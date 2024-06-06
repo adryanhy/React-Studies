@@ -3,6 +3,7 @@
 .header {
     background-color: #222;
     padding: 20px 0;
+    min-width: 1900px;
 }
 
 .container {
@@ -15,7 +16,7 @@
 }
 
 .logo img {
-    height: 100px;
+    height: 120px;
 }
 
 .nav ul {
@@ -32,7 +33,7 @@
 .nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .nav a:hover {
