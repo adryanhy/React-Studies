@@ -18,7 +18,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/bosses" element={<Boss />} />
-            {/* <Route path="/contato" element={<Contato />} /> */}
           </Routes>
         </div>
       </Router>
@@ -31,7 +30,7 @@ function App() {
   )
 }
 const Home = () => <div>
-  Melhores bosses da serie souls (na nossa opinião)
+  <h2>Melhores bosses da serie souls (na nossa opinião)</h2>
   <CardGrid></CardGrid>
   <Botao></Botao>
 </div>;

@@ -3,6 +3,7 @@
 .header {
     background-color: #222;
     padding: 20px 0;
+    min-width: 1900px;
 }
 
 .container {
