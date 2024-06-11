@@ -1,8 +1,7 @@
-# Repositório de Estudos em React
+# Repositório do trabalho da disciplina de Programação Web
 
 ![React Banner](https://reactjs.org/logo-og.png)
 
-repositório do trabalho da disciplina de Programação Web
 
 ## Índice
 - [Integrantes](#integrantes)
