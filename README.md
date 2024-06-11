@@ -12,6 +12,7 @@ repositório do trabalho da disciplina de Programação Web
 ## Integrantes
 - Adryan Andre
 - Bruno Ricardo Ferreira
+- Elton
 
 ## Instalação
 
